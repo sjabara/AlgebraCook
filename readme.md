@@ -31,11 +31,11 @@ Vježba iz naprednog PHP web programiranja korištenjem aplikacijskog okvira Lar
 Sustav za autentifikaciju je dodan te ga ne treba dodavati.
 Općenito vrijedi da ne trebate ništa brisati, dakle u inicijalnom projektu ništa nije 'višak'.
 
-1.Napraviti odgovarajući 'master' page view.
+1. Napraviti odgovarajući 'master' page view.
 
-1.Definirati potrebne route (route za autentifikaciju su dodane i ne treba ih mijenjati/dodavati).
+1. Definirati potrebne route (route za autentifikaciju su dodane i ne treba ih mijenjati/dodavati).
 
-1.Stvoriti odgovarajuće kontrolere za Recipe i User (php artisan make:controller)
+1. Stvoriti odgovarajuće kontrolere za Recipe i User (php artisan make:controller)
 
 1. Stvoriti migracijske datoteke i Model za Recipe i Ingredient
  * modificirati migracijske datoteke tako da 
