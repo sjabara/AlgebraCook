@@ -28,9 +28,10 @@ Vježba iz naprednog PHP web programiranja korištenjem aplikacijskog okvira Lar
 
 
 ## Zadatak
-_Sustav za autentifikaciju php artisan make:auth je dodan te ga ne treba dodavati._
+__Sustav za autentifikaciju__ _php artisan make:auth_ __je dodan te ga ne treba dodavati.__
 Općenito vrijedi da ne trebate ništa brisati, dakle u inicijalnom projektu ništa nije 'višak'.
-_Paket laravelcollective/html je dodan i ne trebate ga dodavati!_
+__Paket__ _laravelcollective/html_ __je dodan i ne trebate ga dodavati!__
+__
 
 1. Napraviti odgovarajuće page views:
 		
