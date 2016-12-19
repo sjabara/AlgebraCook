@@ -32,12 +32,13 @@ Sustav za autentifikaciju je dodan te ga ne treba dodavati.
 Općenito vrijedi da ne trebate ništa brisati, dakle u inicijalnom projektu ništa nije 'višak'.
 
 1. Napraviti odgovarajući 'master' page view.
-		resources/views/
+		resources\views\
 
 1. Definirati potrebne route (route za autentifikaciju su dodane i ne treba ih mijenjati/dodavati).
-		routes/web.php
+		routes\web.php
 
 1. Stvoriti odgovarajuće kontrolere za Recipe i User (php artisan make:controller)
+		app\Http\Controllers
 
 1. Stvoriti migracijske datoteke i Model za Recipe i Ingredient
  * modificirati migracijske datoteke tako da 
