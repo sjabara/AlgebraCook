@@ -28,8 +28,9 @@ Vježba iz naprednog PHP web programiranja korištenjem aplikacijskog okvira Lar
 
 
 ## Zadatak
-Sustav za autentifikaciju je dodan te ga ne treba dodavati.
+_Sustav za autentifikaciju php artisan make:auth je dodan te ga ne treba dodavati._
 Općenito vrijedi da ne trebate ništa brisati, dakle u inicijalnom projektu ništa nije 'višak'.
+_Paket laravelcollective/html je dodan i ne trebate ga dodavati!_
 
 1. Napraviti odgovarajuće page views:
 		
@@ -47,5 +48,6 @@ Općenito vrijedi da ne trebate ništa brisati, dakle u inicijalnom projektu ni�
 		app\Http\Controllers
 
 		
-1. Stvoriti migracijske datoteke i Model za Recipe i Ingredient
- * modificirati migracijske datoteke tako da 
+1. Stvoriti migracijske datoteke i modele za Recipe i Ingredient
+ * urediti modele tako da je Recipe svjestan svojih Ingredient-a i korisnika koji ga je stvorio
+ * urediti migracijske datoteke tako da tablice imaju sve potrebne stupce unutar tablica
