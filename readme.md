@@ -34,7 +34,7 @@ Općenito vrijedi da ne trebate ništa brisati, dakle u inicijalnom projektu ni�
 1. Napraviti odgovarajuće page views:
 		
 		resources\views\layouts\app.blade.php - dodati potrebno
-		resources\views\recipes - stvorit potrebne views za popis, edit, dodavanje, prikaz recepata
+		resources\views\recipes - stvoriti potrebne views za popis, edit, dodavanje, prikaz recepata
 
 		
 1. Definirati potrebne route (route za autentifikaciju i User rute su dodane i ne treba ih mijenjati/dodavati).
@@ -42,7 +42,7 @@ Općenito vrijedi da ne trebate ništa brisati, dakle u inicijalnom projektu ni�
 		routes\web.php
 
 		
-1. Stvoriti odgovarajuće kontrolere za Recipe i User (php artisan make:controller)
+1. Stvoriti odgovarajuće kontrolere za Recipe i User (php artisan make:controller) sa potrebnim metodama
 		
 		app\Http\Controllers
 
