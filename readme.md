@@ -33,6 +33,12 @@ Općenito vrijedi da ne trebate ništa brisati, dakle u inicijalnom projektu ni�
 __Paket__ _laravelcollective/html_ __je dodan i ne trebate ga dodavati!__
 __
 
+1. Odrediti potrebne modele/tablice za bazu, koncept aplikacije, organizaciju direktorija...
+
+1. Stvoriti migracijske datoteke i modele za Recipe i Ingredient
+ * urediti modele tako da je Recipe svjestan svojih Ingredient-a i korisnika koji ga je stvorio
+ * urediti migracijske datoteke tako da tablice imaju sve potrebne stupce unutar tablica
+
 1. Napraviti odgovarajuće page views:
 		
 		resources\views\layouts\app.blade.php - dodati potrebno
@@ -49,6 +55,3 @@ __
 		app\Http\Controllers
 
 		
-1. Stvoriti migracijske datoteke i modele za Recipe i Ingredient
- * urediti modele tako da je Recipe svjestan svojih Ingredient-a i korisnika koji ga je stvorio
- * urediti migracijske datoteke tako da tablice imaju sve potrebne stupce unutar tablica
