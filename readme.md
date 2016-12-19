@@ -31,9 +31,10 @@ Vježba iz naprednog PHP web programiranja korištenjem aplikacijskog okvira Lar
 Sustav za autentifikaciju je dodan te ga ne treba dodavati.
 Općenito vrijedi da ne trebate ništa brisati, dakle u inicijalnom projektu ništa nije 'višak'.
 
-1. Napraviti odgovarajući 'master' page view.
+1. Napraviti odgovarajuće page views:
 		
 		resources\views\layouts\app.blade.php - dodati potrebno
+		resources\views\recipes - stvorit potrebne views za popis, edit, dodavanje, prikaz recepata
 
 		
 1. Definirati potrebne route (route za autentifikaciju i User rute su dodane i ne treba ih mijenjati/dodavati).
