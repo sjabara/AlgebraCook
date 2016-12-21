@@ -40,6 +40,8 @@ Route::group(['middleware' => 'web'], function () {
 	Route::get('/recipes/edit/{id}', 'RecipesController@edit');
 	Route::post('/recipes/edit', 'RecipesController@update');
 	
+	Route::delete('/recipes/view/{id}', 'RecipesController@izbrisi');
+	
 	// User
     Route::get('/profil', 'UsersController@profil');
     Route::post('/profil', 'UsersController@profil');

@@ -81,4 +81,11 @@ class RecipesController extends Controller
 		}
 		return redirect()->action('RecipesController@index');
 	}
+	
+	public function izbrisi($id)
+	{
+		Recipe::findOrFail($id)->delete(); 
+	
+	return redirect('/');
+	}
 }

@@ -10,8 +10,16 @@
 <ul class = "list-group">
 <?php $__currentLoopData = $recipes; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $recipe): $__env->incrementLoopIndices(); $loop = $__env->getFirstLoop(); ?>
 <li class = "list-group-item"><a href = "recipes/view/<?php echo e($recipe->id); ?>">
-	<?php echo e($recipe->name); ?></a></li>
+	<?php echo e($recipe->name); ?></a>
+	<form action = "/recipes/view/<?php echo e($recipe->id); ?>" method = "POST">
+		<?php echo e(csrf_field()); ?>
+
+			<?php echo e(method_field('DELETE')); ?>
+
+				<button>Izbriši recept</button>
+	</li>
 <?php endforeach; $__env->popLoop(); $loop = $__env->getFirstLoop(); ?>
+
 </ul>
 </div>
 </div>
